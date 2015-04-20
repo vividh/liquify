@@ -7,7 +7,7 @@ I created this small plugin for my project as a quick-fix for one of (many) Liqu
 This is quite similar to the `markdownify` filter, since Liquid also does not parse markdown in an included markdown file. This can be solved by the [markdown](https://gist.github.com/tmtk75/1408402) plugin or the `markdownify` filter included in Jekyll. [This post](http://wolfslittlestore.be/2013/10/rendering-markdown-in-jekyll/) elaborates it further.
 
 ## Installation
-To install the plugin, simply put them in a folder named _plugins in your jekyll project directory.
+To install the plugin, simply put it in a folder named **_plugins** in your jekyll project directory.
 
 ## Usage
     {{ description | liquify }}
